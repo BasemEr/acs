@@ -18,15 +18,19 @@ Data scarcity remains a major obstacle to effective machine learning in molecula
 ## Repository Contents
 
 - **`main.py`**  
-  Main driver script for training and evaluation.
-- **`src/`**  
-  Folder containing source code for:
-  - Data loading and preprocessing (`dataset.py`)
-  - Model architectures (`model.py`)
-  - Training logic and specialized routines (metrics, checkpointing, etc.)
-
-- **Additional scripts**  
-  For performance analysis, visualization, and utility functions.
+  Main script for training and evaluation.
+- **`dataset.py`**  
+  Pre-processes training data and produce molecular graphs.
+- **`checkpointing.py`**  
+  Facilitate adaptive and global-loss checkpointing.
+- **`metrics_and_losses.py`**  
+  Helper functions for training and evaluation.
+- **`model.py`**  
+  Model architecture selection.
+- **`performance_analysis.py`**  
+  Post-training evaluation script.
+- **`smiles_utils.py`**  
+  Helper functions for handling SMILES.
 
 ---
 
