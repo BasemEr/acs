@@ -1,4 +1,8 @@
-# Molecular Property Prediction in the Ultra-Low Data Regime
+<img width="1395" alt="Screenshot 2025-02-18 at 11 26 14 AM" src="https://github.com/user-attachments/assets/79e05f4e-f5c3-4d2f-ad26-7a12c183779c" /># Molecular Property Prediction in the Ultra-Low Data Regime
+
+<img width="1395" alt="Screenshot 2025-02-18 at 11 26 14 AM" src="https://github.com/user-attachments/assets/6b0b8acc-caec-425e-a963-4569d4891658" />
+
+
 
 This repository contains the official code accompanying the paper **"Molecular Property Prediction in the Ultra-Low Data Regime"** by  
 - Basem A. Eraqi<sup>1</sup>, Dmitrii Khizbullin<sup>2</sup>, Shashank S. Nagaraja<sup>1</sup>, and S. Mani Sarathy<sup>1</sup>  
