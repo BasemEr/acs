@@ -79,8 +79,7 @@ pip install deepchem
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/<YourUsername>/<YourRepoName>.git
-   cd <YourRepoName>
+   git clone https://github.com/<YourUsername>/<YourRepoName>.git](https://github.com/BasemEr/acs.git
    ```
 
 2. **(Optional) Place your data**:  
