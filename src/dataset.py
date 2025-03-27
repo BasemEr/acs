@@ -398,7 +398,6 @@ class DatasetProcessor(Dataset[Data], collections.abc.Sequence[Data]):
             df_orig = pd.read_excel(path, tab)
 
         if path[5:8] != 'SAF':
-            print("Used dataset is not the SAF dataset")
             self.non_saf_dataset = True
             df_orig = self.benchmark_dataset_processor(df_orig)
             self.property_full_names = {col: col for col in df_orig.columns}
