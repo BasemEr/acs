@@ -37,6 +37,7 @@ Data scarcity remains a major obstacle to effective machine learning in molecula
 ---
 
 ## Installation and Setup
+The environment.yaml file within environment_setup can be used to setup the python enviroment directly, alternatively:
 
 ### 1. Create (and activate) a new conda environment
 
@@ -98,6 +99,7 @@ pip install deepchem
      - `--num-folds`: number of cross-validation folds (default 5).
      - `--max-steps`: total training steps (default 50000).
      - `--use-scaffold-split`: toggles scaffold-based data splitting.
+     - `--data-path`: dataset selection (e.g., ClinTox, Tox21, SIDER).
      - Run `python main.py --help` for more options.
 
 4. **View logs**:  
