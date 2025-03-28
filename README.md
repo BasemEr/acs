@@ -85,12 +85,12 @@ pip install deepchem
    ```
 
 2. **(Optional) Place your data**:  
-   - By default, the code looks for data in `data/SAF.xlsx` or one of the recognized `data/*.csv` benchmark datasets.  
+   - By default, the code looks for data in the `/data/.xlsx` directory stored as .csv files.  
    - Adjust or rename your data file as needed.
 
 3. **Run training**:
    ```bash
-   python main.py --model-type acs --task-type regression --num-folds 5 --max-steps 50000
+   PYTHONPATH=. python src/main.py --tag=ClinTox -m acs --data-path clintox -tt classification --num-olds 5 --max-steps 50000',
    ```
    - Common arguments:
      - `--model-type`: can be `acs` (Adaptive Checkpointing), `mtl`, `mtl-glc`, or `stl`.
