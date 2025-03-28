@@ -31,6 +31,8 @@ Data scarcity remains a major obstacle to effective machine learning in molecula
   Post-training evaluation script.
 - **`smiles_utils.py`**  
   Helper functions for handling SMILES.
+- **`run.py`**  
+  Launches model training scripts to reproduce paper results.
 
 ---
 
