@@ -701,42 +701,8 @@ def dataset_filter(filters: Optional[str], series_formula: pd.Series, series_smi
     permitted_atoms = ['C', 'H', 'O']
 
     if by_family:
-
-        # List of outlier-producing families 17/mar/2024
-        top5_all_8_props = ['elements',  
-                                    'inorganic acids',
-                                    'polyfunctional c, h, o, n',
-                                    'c, h, no2 compounds',
-                                    'inorganic gases',
-                                    'other amines, imines',
-                                    'other inorganic salts',
-                                    'other inorganics',
-                                    'aliphatic ethers',
-                                    'c1/c2 aliphatic chlorides',
-                                    'c3 & higher aliphatic chlorides',
-                                    'cycloaliphatic alcohols',
-                                    'inorganic bases',
-                                    'inorganic halides',
-                                    'nitriles',
-                                    'other alkanes',
-                                    'other polyfunctional c, h, o',
-                                    'peroxides',
-                                    'polyfunctional c, h, o, halide',
-                                    'sodium salts',
-                                    'sulfides/thiophenes']
-
-        # List of improper chemical families by shashank 27/mar/2024 (CHO only)
-        ssn_list = ['other aliphatic acids',
-                             'polyfunctional acids',
-                             'peroxides',
-                             'dicarboxylic acids',
-                             'aromatic carboxylic acids',
-                             'anhydrides',
-                             'organic salts',
-                             'inorganic gases']
         
-        # List of improper chemical families by arwa 15/apr/2024 
-        arwa_list = ['other polyfunctional c, h, o',
+        family_list = ['other polyfunctional c, h, o',
                             'silanes/siloxanes',
                             'sulfides/thiophenes',
                             'polyols',
@@ -794,7 +760,7 @@ def dataset_filter(filters: Optional[str], series_formula: pd.Series, series_smi
                             'other aliphatic acids']
 
         for idx, family in series_family.items():
-            if family.lower() in arwa_list:
+            if family.lower() in family_list:
                 if idx not in filtered_indices:
                     filtered_indices.append(idx)
 
