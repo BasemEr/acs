@@ -120,11 +120,13 @@ pip install deepchem
 If this work helps your research, please consider citing our paper:
 
 ```bibtex
-@article{
-  title={Molecular Property Prediction in the Ultra-Low Data Regime},
-  author={Eraqi, Basem A. and Khizbullin, Dmitrii and Nagaraja, Shashank S. and Sarathy, S. Mani},
-  journal={Communications Chemistry},
-  year={2025}
+@article{eraqi2025ultralow,
+  title = {Molecular property prediction in the ultra-low data regime},
+  author = {Eraqi, Basem A. and Khizbullin, Dmitrii and Nagaraja, Shashank S. and Sarathy, S. Mani},
+  journal = {Nature Communications Chemistry},
+  year = {2025},
+  doi = {10.1038/s42004-025-01592-1},
+  url = {https://doi.org/10.1038/s42004-025-01592-1}
 }
 ```
 
