@@ -123,7 +123,7 @@ If this work helps your research, please consider citing our paper:
 @article{
   title={Molecular Property Prediction in the Ultra-Low Data Regime},
   author={Eraqi, Basem A. and Khizbullin, Dmitrii and Nagaraja, Shashank S. and Sarathy, S. Mani},
-  journal={...},
+  journal={Communications Chemistry},
   year={2025}
 }
 ```
